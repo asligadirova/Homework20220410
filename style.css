@@ -30,13 +30,67 @@ body{
     text-align: center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top:2px
+    padding-top:2px; 
+    padding-bottom: 30px; 
+    
+    
 }
+.x{
+
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 50px;
+   /* display: inline-block; */
+}
+
+.top-email-or-phone{
+    position: absolute;
+    width: max-content;
+    background-color: white;
+    /* border: 1px solid black; */
+     top:-25px;
+}
+.x1{
+    width: 310px;
+    height: 50px;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 4px; 
+    padding-left: 10px;
+    
+    /* display: inline-block; */
+    }
+   input:focus{
+    /* background-color: aqua; */
+    outline: none;
+    border: 2px solid  #1a73e8;
+    position: relative;  
+   
+    }
+    input:focus::-webkit-input-placeholder {
+        opacity: 0;
+    }
+  
+    .top-email-or-phone{
+        position: absolute;
+        width: max-content;
+        background-color: white;
+        /* border: 1px solid black; */
+         top:-28px;
+         margin-left: 8px;
+         z-index: +1;
+         color: #1a73e8;
+      
+    }
+
 .foget-email{
     color: #1a73e8;
-    font-size: 20px;
+    font-size: 14px;
     display: inline-block;
     text-decoration: none;  
+    padding-bottom: 50px;
+    font-family:  'Noto Sans Myanmar UI',arial,sans-serif;
+    padding-left: 40px;
+    padding-top: 10px;
 }
 .not-u-comp{
     color: #5f6368;
@@ -44,7 +98,38 @@ body{
     line-height: 1.4286;
     padding-bottom: 3px;
     padding-top: 9px;
-    
-
-
+    padding-left: 40px;
+}
+.learn-more{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+    font-family:  'Noto Sans Myanmar UI',arial,sans-serif;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+.create-account{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+    font-family:  'Noto Sans Myanmar UI',arial,sans-serif;
+    padding-left: 40px;   
+    margin-right: 140px;
+   
+}
+.next{
+    background-color: blue;  
+    display: inline-block;
+    word-spacing: 70px;
+    color: white;
+    width: 80px;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Google Sans",Arial,sans-serif;
+    font-size: 16;   
+  
+   
 }
